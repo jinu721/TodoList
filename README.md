@@ -1,7 +1,7 @@
 ## Advanced To-Do List
 
 ## Live Demo
-[To-Do List](https://jinu721.github.io/FormValidation/)
+[To-Do List](https://jinu721.github.io/TodoList/)
 
 ### Overview
 
