@@ -1,0 +1,190 @@
+@font-face {
+    font-family: custom;
+    src: url(../fonts/custom.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: custom ;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    filter: blur(0px);
+}
+#txt-todolist{
+    margin: 100px 20px 30px 0px;
+}
+.section-inp input{
+    height: 25px;
+    width: 550px;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: solid 2px rgba(79, 78, 78, 0.632);
+}
+.section-inp button{
+
+    height: 45px;
+    width: 75px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(81, 0, 255, 0.842);
+    color: white;
+}
+.section-inp button:hover{
+    background: rgb(74, 8, 215);
+}
+.mainBody{
+    margin: 20px 0px 0px 20px;
+}
+.section-heading{
+    display: flex;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.293);
+    
+}
+.section-heading h1{
+    font-size: 20px;
+    font-weight: 100;
+}
+#section-body{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 5px;
+}
+.txt-no{
+    margin: 30px 28px 20px 0px;
+}
+.txt-time{
+    margin: 30px 60px 20px 0px;
+}
+.txt-name{
+    margin: 30px 180px 20px 0px;
+}
+.txt-action{
+    margin: 30px 100px 20px 0px;
+}
+.content{
+    display: flex;
+    padding: 10px 0px 10px 0px ;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.318) ;
+}
+.noDiv{
+    width: 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0px 23px 0px 0px;
+    /* background-color: aqua; */
+}
+.noDiv p{
+    font-size: 13px;
+}
+.dateDiv{
+    width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0px 36px 0px 0px;
+    /* background-color: rgb(255, 0, 0); */
+}
+.dateDiv p{
+    font-size: 13px;
+}
+.nameDiv{
+    width: 200px;
+    height: 50px;
+    margin: 0px 25px 0px 0px;
+    display: flex;
+    overflow:hidden;
+    align-items: center;
+    /* background-color: rgb(255, 0, 230); */
+}
+.nameDiv p{
+    font-size: 13px;
+}
+.actionDiv{
+    /* width: 100px; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(60, 255, 0); */
+}
+.edit{
+    height: 35px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 13px;
+    margin-right: 10px;
+    color: white;
+    background-color: rgb(40, 159, 7);
+}
+.delete{
+    height: 35px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 13px;
+    margin-right: 10px;
+    color: white;
+    background-color: rgb(255, 47, 0);
+}
+.done{
+    height: 35px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+    background-color: rgb(6, 8, 174);
+}
+
+#popup{
+
+    display: none ;
+    flex-direction: column;
+    position: absolute;
+    top: 300px;
+    height: 130px;
+    width: 300px;
+    background-color: rgb(255, 254, 254);
+    border-radius: 10px;
+    border: solid 1px rgba(128, 128, 128, 0.19);
+}
+#popup input{
+    height: 15px;
+    width: 250px;
+    padding: 10px;
+    outline: none;
+    margin: 20px 0px 0px 13px;
+    border-radius: 10px;
+    border: solid 2px rgba(79, 78, 78, 0.632);
+}
+#popup button{
+    width: 120px;
+    height: 30px;
+    margin: 10px 0px 0px 15px;
+    border-radius: 10px;
+    border: none;
+}
+#popup button:first-child{
+    margin-right: 5px;
+    border: solid 1px rgba(128, 128, 128, 0.189);
+}
+#popup button:last-child{
+    background-color:rgb(40, 159, 7);
+    color: white;
+}
