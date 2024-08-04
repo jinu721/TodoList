@@ -1,4 +1,9 @@
-### Simple Overview of the To-Do List App
+## Advanced To-Do List
+
+## Live Demo
+[To-Do List](https://jinu721.github.io/FormValidation/)
+
+### Overview
 
 This to-do list app is made with JavaScript to help you manage your tasks easily. You can add tasks with specific numbers, dates, and times to organize your day better. The app lets you edit, update, and mark tasks as done so you can track your progress.
 
@@ -11,7 +16,7 @@ This to-do list app is made with JavaScript to help you manage your tasks easily
 
 ### Important Information
 
-This to-do list app has advanced features but a simple design. For the best experience, it's best to use it on a laptop.
+Dear user, while this to-do list offers advanced functionality, please note that the design is basic and not optimized for responsiveness. It is recommended to use this application on a laptop for the best experience.
 
 ---
 
