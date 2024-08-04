@@ -1,6 +1,3 @@
-Here's a description for your advanced to-do list:
-
----
 
 ### Advanced To-Do List Overview
 
